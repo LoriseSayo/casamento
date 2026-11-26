@@ -18,7 +18,7 @@
   position: absolute;
   inset: 0;
 
-  background-image: url("../imgs/1.jpeg");
+  background-image: url("../imgs/1_edit.png");
   background-size: cover;
   background-position: center;
 
@@ -30,6 +30,12 @@
   );
 
   mask-image: linear-gradient(to bottom, black 0%, black 60%, transparent 100%);
+}
+
+@media (max-width: 768px) {
+  .hero-background {
+    background-image: url("../imgs/1.jpeg");
+  }
 }
 
 .hero-content {

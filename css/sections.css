@@ -304,7 +304,7 @@ h2 {
   position: absolute;
   inset: 0;
 
-  background-image: url("../imgs/2.jpeg");
+  background-image: url("../imgs/2_edit.jpg");
   background-size: cover;
   background-position: center;
 
@@ -316,6 +316,12 @@ h2 {
   );
 
   mask-image: linear-gradient(to bottom, transparent 0%, black 40%, black 100%);
+}
+
+@media (max-width: 768px) {
+  .final-background {
+    background-image: url("../imgs/2.jpeg");
+  }
 }
 
 /* ==========================================
