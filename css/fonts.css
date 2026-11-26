@@ -1,0 +1,12 @@
+@font-face {
+  font-family: "LoriseSayo";
+  src: url("../fonts/CormorantGaramond.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "LoriseSayo2";
+  src: url("../fonts/BodoniModat.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
